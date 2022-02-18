@@ -5,11 +5,11 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 
 @SpringBootApplication
-@EnableEurekaClient
-public class PaymentServiceApplication {
+//@EnableEurekaClient
+public class FxRateApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(PaymentServiceApplication.class, args);
+        SpringApplication.run(FxRateApplication.class, args);
     }
 
 }
